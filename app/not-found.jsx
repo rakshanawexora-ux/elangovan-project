@@ -1,0 +1,2 @@
+import {Button,PageHeading} from '../components/shared';
+export default function NotFound(){return <><PageHeading label="Page not found" title="Let’s get you back" accent="to the right place.">This page isn’t available. Explore our services or speak with us directly.</PageHeading><div className="container error-actions"><Button href="/">Back to home</Button><Button href="/services" variant="outline">Explore services</Button></div></>}

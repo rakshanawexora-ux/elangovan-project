@@ -18,3 +18,9 @@ The interface uses Nielsen's usability heuristics as a practical review framewor
 Check the four routes at desktop, tablet and phone widths. Verify visible content without scrolling, no horizontal overflow, image loading, keyboard menu dismissal, service filter counts and pressed state, enquiry context and reduced-motion behaviour. Run automated axe checks for WCAG A/AA rules alongside manual review; automated checks alone do not establish full compliance.
 
 Generated photographs are illustrative, including the image adjacent to the business biography. No customer counts, reviews, office address, charges or guarantees have been invented.
+
+## Next.js redesign
+
+The application now uses Next.js App Router with server-rendered page content and per-page metadata. Content remains readable with JavaScript disabled. Blue navigation and emerald green contact actions distinguish exploration from contact. Fixed Call and WhatsApp actions are available on mobile; footer spacing keeps the final content clear of them. Decorative motion uses transforms rather than hiding text, and respects `prefers-reduced-motion`.
+
+Validated on the production server at 1440, 768, 390 and 360 pixel widths across all four routes. Checks covered images, overflow, service filtering and feedback, contextual WhatsApp enquiries, mobile navigation/Escape, FAQ, reduced motion, server-rendered text, and the 404 route. Automated axe WCAG A/AA checks reported no violations on the four pages; this does not establish full accessibility compliance.
