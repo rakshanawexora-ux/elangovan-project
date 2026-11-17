@@ -24,3 +24,7 @@ Generated photographs are illustrative, including the image adjacent to the busi
 The application now uses Next.js App Router with server-rendered page content and per-page metadata. Content remains readable with JavaScript disabled. Blue navigation and emerald green contact actions distinguish exploration from contact. Fixed Call and WhatsApp actions are available on mobile; footer spacing keeps the final content clear of them. Decorative motion uses transforms rather than hiding text, and respects `prefers-reduced-motion`.
 
 Validated on the production server at 1440, 768, 390 and 360 pixel widths across all four routes. Checks covered images, overflow, service filtering and feedback, contextual WhatsApp enquiries, mobile navigation/Escape, FAQ, reduced motion, server-rendered text, and the 404 route. Automated axe WCAG A/AA checks reported no violations on the four pages; this does not establish full accessibility compliance.
+
+## Online service model
+
+The website now describes remote assistance: confirm requirements by WhatsApp or phone, send clear document copies through the agreed digital channel, and receive application guidance and next-step updates. Home-visit offers have been removed from the pages, navigation branding, contact copy and metadata. Official biometric, appointment and verification steps are distinguished from the remote assistance service. Eight service-specific original generated images and the remote-work hero are illustrative, not official documents or screenshots of a government portal.
